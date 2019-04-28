@@ -11,3 +11,9 @@ Seguidamente arrancaremos la aplicacion
 sudo docker run --name app-python -p 5000:5000 servidor-flask
 
 Ahora podemos ir a un navegador web, y poner la direccion localhost:5000 y podremos ver la ejecución de la aplicación.
+
+Este contenedor se ha publicado *docker hub* y lo podemos encontrar en la siguiente dirección.
+https://hub.docker.com/r/dasanro/python-flask
+
+Podemos hacer uso mediante el siguiente comando.
+docker pull dasanro/python-flask
