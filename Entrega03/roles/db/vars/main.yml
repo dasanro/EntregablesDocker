@@ -1,0 +1,6 @@
+---
+# vars file for db
+
+db_name: knights
+db_user: root
+db_pass: root

@@ -1,0 +1,15 @@
+---
+# tasks file for app
+- name: instalar python
+  apt:
+      name: python:3.6
+
+- name: instalar librerias python
+  pip:
+    name: Flask, mysql-connector 
+
+- name: copiar fichero
+  copy: src=..files/app.py dest=/app
+
+- name: ejecutar script
+  command: python /app/app.py
